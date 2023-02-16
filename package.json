@@ -1,11 +1,11 @@
 {
   "name": "@hcnc/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
   "scripts": {
-   "build" : "npm run clean && tsc",
-   "clean" : "del ./build/*"
+    "build": "npm run clean && tsc",
+    "clean": "del ./build/*"
   },
   "types": "./build/index.d.ts",
   "files": [
