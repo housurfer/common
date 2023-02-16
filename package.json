@@ -1,12 +1,12 @@
 {
   "name": "@hcnc/common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./build/index.js",
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "del ./build/*",
-    "pub" : "git add . && git commit -m \"updates\" && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"updates\" && npm version patch && npm run build && npm publish"
   },
   "types": "./build/index.d.ts",
   "files": [
