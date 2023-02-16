@@ -5,7 +5,8 @@
   "main": "./build/index.js",
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "del ./build/*"
+    "clean": "del ./build/*",
+    "pub" : "git add . && git commit -m \"updates\" && npm version patch && npm run build && npm publish"
   },
   "types": "./build/index.d.ts",
   "files": [
